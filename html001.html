@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf8">
-    <title>はじめてのHTML</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf8">
+  <title>はじめてのHTML</title>
+</head>
+<body>
 
-<!--
-ol (ordered list) / ul (unordered list) /  li (list item)
-dl (definition list) / dt (definition term) / dd (definition description)
+  <!--
+  ol (ordered list) / ul (unordered list) /  li (list item)
+  dl (definition list) / dt (definition term) / dd (definition description)
 -->
 
-    <article>
-        <h1>おいしいごはん</h1>
-        <p>至高の<strong>TKG</strong> → <a href="more.html">もっと見る</a> → <a href="#stuff">材料に</a></p>
-        <h2 id="stuff" >材料</h2>
-        <ul>
-          <br>
-            <li><a href="https://dotinstall.com" target="_blank"><span style='color:gold'>卵</span></a></li>
-            <li>しょうゆ</li>
-            <li>ごはん</li>
-        </ul>
-        <h2>手順</h2>
-        <ol>
-            <li>まぜる</li>
-            <li>かける</li>
-        </ol>
-        <h2>定義</h2>
-        <dl>
-            <dt>TKG</dt>
-            <dd>TAMAGO KAKE GOHAN</dd>
-        </dl>
-    </article>
+<article>
+  <h1>おいしいごはん</h1>
+  <p><img src="food.jpg" width="200" height="200" alt="カオマンガイ"></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Size</th><th>Price</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>S</td><td>150</td>
+    </tr>
+    <tr>
+      <td>M</td><td>250</td>
+    </tr>
+    <tr>
+      <td>L</td><td>350</td>
+    </tr>
+    <tr>
+      <td colspan="2">Free for kids!</td>
+    </tr>
+    <tbody>
+    </tbody>
+  </table>
 
-  </body>
+  <br>
+  <p>至高の<strong>TKG</strong> → <a href="more.html">もっと見る</a> → <a href="#stuff">材料に</a></p>
+  <h2 id="stuff" >材料</h2>
+  <ul>
+    <br>
+    <li><a href="https://dotinstall.com" target="_blank"><span style='color:gold'>卵</span></a></li>
+    <li>しょうゆ</li>
+    <li>ごはん</li>
+  </ul>
+  <h2>手順</h2>
+  <ol>
+    <li>まぜる</li>
+    <li>かける</li>
+  </ol>
+  <h2>定義</h2>
+  <dl>
+    <dt>TKG</dt>
+    <dd>TAMAGO KAKE GOHAN</dd>
+  </dl>
+</article>
+
+</body>
 </html>
