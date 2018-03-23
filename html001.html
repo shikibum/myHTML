@@ -40,7 +40,10 @@
 <article>
   <h1>アンケート</h1>
   <form accion="survey.php" method="post" >
-    <p>メールアドレス<input type="text" name="email"></p>
+    <!-- ?<p>メールアドレス<input type="text" name="email" size="50" maxlength="5" value="abc"></p> -->
+    <p>メールアドレス:<input type="text" name="email" size="50" placeholder="abc@shikibu.com"></p>
+    <p>ログイン:<input type="password" name="password" size="50"></p>
+    <input type="hidden" name="use_id" value="2323">
     <p><input type="submit" value="送信"></p>
   </form>
 </article>
