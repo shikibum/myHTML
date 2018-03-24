@@ -42,9 +42,14 @@
   <form accion="survey.php" method="post" >
     <!-- ?<p>メールアドレス<input type="text" name="email" size="50" maxlength="5" value="abc"></p> -->
     <p>メールアドレス:<input type="text" name="email" size="50" placeholder="abc@shikibu.com"></p>
-    <p>ログイン:<input type="password" name="password" size="50"></p>
+    <p>
+      コメント:
+        <textarea name="comment" cols="40" rows="5" placeholder="コメント記入欄"></textarea>
+      </p>
     <input type="hidden" name="use_id" value="2323">
-    <p><input type="submit" value="送信"></p>
+    <p><button type="submit"><strong>送信</strong></button></p>
+    <p><button type="button">処理をする</button></p>
+    <p><input type="submit" value="送信" disabled></p>
   </form>
 </article>
 
